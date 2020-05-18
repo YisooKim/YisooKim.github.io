@@ -1,0 +1,19 @@
+{% assign author = site.data.authors[include.author] %}
+{% assign date = include.date %}
+{% assign tags = include.tags %}
+<div class="post-info">
+ 
+    {% if author.avatar  %}
+      <img src="{{ author.avatar | relative_url }}">
+    {% endif %}
+    <p class="meta">
+      
+      {{ date | date: "%y.%m.%-d " }} &nbsp;&nbsp;&nbsp;
+      <p class="metatag">
+      {% for tag in tags %}
+        #{{ tag }}&nbsp;
+      {% endfor %}
+      </p>
+    </p>
+  
+</div>
