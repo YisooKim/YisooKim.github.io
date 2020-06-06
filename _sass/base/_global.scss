@@ -54,19 +54,19 @@ h6 {
 }
 
 h1 {
-  font-size: 2.3em;
-}
-
-h2 {
   font-size: 1.75em;
 }
 
-h3 {
+h2 {
   font-size: 1.5em;
 }
 
-h4 {
+h3 {
   font-size: 1.15em;
+}
+
+h4 {
+  font-size: 1em;
 }
 
 iframe,
@@ -90,25 +90,25 @@ img[align=right] {
 
 @media screen and (max-width: $break) {
   h1 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
   h2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   h3 {
     font-size: 1em;
   }
   h4, tr, th, .meta {
-    font-size: 0.9em;
-  }
-  p, li, td {
     font-size: 0.8em;
   }
+  p, li, td {
+    font-size: 0.7em;
+  }
   li li {
-    font-size: 0.95em;
+    font-size: 0.85em;
   }
   li li * {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
   iframe,
